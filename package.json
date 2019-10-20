@@ -1,0 +1,31 @@
+{
+  "name": "read-formidable-sourcecode",
+  "version": "1.0.0",
+  "description": "\"# read-formidable-sourcecode\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShuYiGengYun/read-formidable-sourcecdoe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShuYiGengYun/read-formidable-sourcecdoe/issues"
+  },
+  "homepage": "https://github.com/ShuYiGengYun/read-formidable-sourcecdoe#readme",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "koa": "^2.10.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
